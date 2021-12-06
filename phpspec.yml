@@ -1,0 +1,15 @@
+suites:
+  default:
+    namespace: App  #c'est le nom donné pour atteindre src/
+                    #voir autoload dans composer.json
+    psr4_prefix: App
+
+formatter.name: pretty  #permet d'afficher sur un format spécifique
+                        #--format=[value]
+                        #value:
+                        #  progress
+                        #  html  (fichier html)
+                        #  pretty
+                        #  junit (fichier xml)
+                        #  dot
+                        #  tap
